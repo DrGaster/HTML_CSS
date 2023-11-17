@@ -26,6 +26,38 @@ img {
  max-width: 100%; display: block ;
 }
 
+/* 
+Style rules for mobile viewport
+ */
+
+ .mobile {
+  display: block;
+}
+
+/* 
+Style rules to show mobile class and hide tab-desk class
+ */
+
+.tab-desk {
+  display: none;
+}
+
+/* 
+Style rules for header area
+ */
+
+h1 {
+  padding: 2%;
+  text-align: center;
+  font-family: 'Emblema+One';
+}
+
+h3 {
+  padding: 2%;
+  text-align: center;
+  font-family: 'Lora';
+}
+
 /*
 Style rules for navigation area
 */
@@ -63,7 +95,7 @@ Style rules for main content
 
 main {
  padding: 2%;
- font-family: Verdana, Arial, sans-serif;
+ font-family: Verdana, Arial, sans-serif, 'Lora';
  font-size: 1.25em;
 }
 
