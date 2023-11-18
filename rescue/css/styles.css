@@ -8,7 +8,7 @@ Date: 10/05/2023
 CSS Reset
 */
 
-body, header, nav, main, footer, img, h1, h3 {
+body, header, nav, main, footer, img, h1, h3, ul {
   padding:0;
   margin:0;
   border:0;
@@ -46,16 +46,10 @@ Style rules to show mobile class and hide tab-desk class
 Style rules for header area
  */
 
-h1 {
+h1, h3 {
   padding: 2%;
   text-align: center;
-  font-family: 'Emblema+One';
-}
-
-h3 {
-  padding: 2%;
-  text-align: center;
-  font-family: 'Lora';
+  font-family: 'Emblema One';
 }
 
 /*
@@ -68,7 +62,6 @@ nav {
 
 nav ul {
  list-style: none;
- margin: 0;
  text-align: center;
 }
 
@@ -77,6 +70,10 @@ nav li {
  font-size: 1.5em;
  font-family: Geneva, Arial, sans-serif;
  font-weight: bold;
+ display: block;
+ border-top: solid;
+ border-top: 0.5px;
+ border-top-color: #f6eee4;
 }
 
 nav li a {
@@ -95,7 +92,7 @@ Style rules for main content
 
 main {
  padding: 2%;
- font-family: Verdana, Arial, sans-serif, 'Lora';
+ font-family: 'Lora', serif;
  font-size: 1.25em;
 }
 
@@ -124,9 +121,17 @@ Style rules for class and id selectors
 }
 
 .action {
- font-size:1.75em;
+ font-size: 1.75em;
  font-weight: bold;
  text-align: center;
+}
+
+.round {
+  border-radius: 6px;
+}
+
+#info ul {
+  margin-left: 10%;
 }
 
 #contact {
